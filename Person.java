@@ -1,7 +1,9 @@
+//This code is from an assignment a few weeks ago.
 import java.util.Scanner;
 
-    public class Person {
-        static Scanner userinput;
+public class Person {
+    static Scanner userinput = new Scanner(System.in);
+
         protected String firstName;
         protected String lastName;
         protected String gender;
@@ -45,7 +47,7 @@ import java.util.Scanner;
    }
 
 
-   // Here are the get methods.
+   // Here are the get methods I added.
 
     public String getGender(){
         String personGender = this.gender;
@@ -83,7 +85,7 @@ import java.util.Scanner;
    }
 
 
-   // These are the set methods.
+   // These are the set methods I added.
 
     public void setFirstName(String firstName){
         this.firstName = firstName;
@@ -116,4 +118,5 @@ import java.util.Scanner;
    public void setReligion(String religion) {
         this.religion = religion;
    }
+
 }

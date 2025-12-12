@@ -2,14 +2,17 @@ import java.util.Random;
 
 public class Student extends Person {
 
+    //Create the attributes that are unique to students.
     protected String major, classRank, email;
 
+    //Create the method for the student to go to class.
     public String goToClass(String className){
         String message = "";
         message += firstName + " is now going to " + className + ".";
         return message;
     }
 
+    //Overide the eat something method for a person and personalize it for a student.
     @Override
     public String eatSomething(){
         Random random = new Random();
