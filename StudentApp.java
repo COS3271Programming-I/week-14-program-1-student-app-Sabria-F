@@ -26,6 +26,9 @@ public class StudentApp {
         System.out.print("Enter the student's ethnic group --> ");
         ethnicGroup = userinput.nextLine();
 
+        System.out.print("Enter the student's religion --> ");
+        religion = userinput.nextLine();
+
         System.out.print("Enter the student's age  --> ");
         age = userinput.nextInt();
         userinput.nextLine();
